@@ -13,12 +13,7 @@ import {
   bg,
 } from "./works.module.scss";
 
-import workoutLog from "../../images/workout-tracker.jpg";
-import sleepTight from "../../images/sleep-tight.jpg";
-import cookHelper from "../../images/cooking-helper.jpg";
-import oatmealEcSite from "../../images/oatmeal-ecsite.jpg";
-import commitFit from "../../images/commit-fit.jpg";
-import portfolio from "../../images/portfolioSite.jpg";
+import youtube from "../../images/youtube.jpg";
 import WorkCard from "../WorkCard/WorkCard";
 
 const Works = () => {
@@ -38,90 +33,19 @@ const Works = () => {
           <div className={rowWrapper}>
             <div className={work1}>
               <WorkCard
-                worktitle={"Workout Tracker"}
+                worktitle={"YouTube clone UI"}
                 details={
-                  "A workout tracker recording app provides the store the user information and their posts."
+                  "A clone of Youtube with dark theme"
                 }
                 tool={"React.js"}
-                tool2={"FireBase"}
-                tool3={"MUI"}
-                github={"https://github.com/Hikari7/Workout_tracking_App"}
-                link={"https://workout-tracking-app.vercel.app/"}
-                image={workoutLog}
+                tool2={"HTML5"}
+                tool3={"Material UI"}
+                github={"https://github.com/Aspheria/YouTube-Clone"}
+                link={"https://elastic-lalande-0d8529.netlify.app/"}
+                image={youtube}
               />
             </div>
-            <div className={work2}>
-              <WorkCard
-                worktitle={"Cook Helper"}
-                details={
-                  "A recipe searching app which also provides a grocery list users can add, edit and delete lists"
-                }
-                tool={"React.js"}
-                tool2={"Tailwind"}
-                tool3={"Spoonacular API"}
-                github={"https://github.com/Hikari7/Cooking_helper_ReactApp"}
-                link={
-                  "https://meal-idea-generation-react-es1qdgl8u-hikari7.vercel.app/"
-                }
-                image={cookHelper}
-              />
-            </div>
-          </div>
-          <div className={rowWrapper}>
-            <div className={work3}>
-              <WorkCard
-                worktitle={"Oatmeal EC Site"}
-                details={
-                  "An Ecommerce website using vanilla JS and the Local Storage"
-                }
-                tool={"HTML"}
-                tool2={"SASS"}
-                tool3={"JavaScript"}
-                github={"https://github.com/Hikari7/YabeeOatmeal_EC-Website"}
-                link={"https://oatmeal-ec-site.netlify.app/"}
-                image={oatmealEcSite}
-              />
-            </div>
-            <div className={work4}>
-              <WorkCard
-                worktitle={"Sleep Tight"}
-                details={"A web app only plays BGM-related relaxing sounds"}
-                tool={"React.js"}
-                tool2={"YouTube Data API v3"}
-                tool3={"Tailwind/GSAP"}
-                github={"https://github.com/Hikari7/SleepTight_ReactApp"}
-                link={"https://sleeptight.vercel.app/"}
-                image={sleepTight}
-              />
-            </div>
-          </div>
-          <div className={rowWrapper}>
-            <div className={work5}>
-              <WorkCard
-                worktitle={"Portfolio"}
-                details={"My portfolio"}
-                tool={"React.js"}
-                tool2={"Sass"}
-                tool3={"Framer-motion"}
-                github={"https://github.com/Hikari7/portfolio"}
-                link={"hikari-kobe.vercel.app"}
-                image={portfolio}
-              />
-            </div>
-            <div className={work6}>
-              <WorkCard
-                worktitle={"Commit fit"}
-                details={
-                  "A gym landing page website which is built with SASS and vanilla JavaScript."
-                }
-                tool={"JavaScript"}
-                tool2={"Sass"}
-                tool3={"HTML"}
-                github={"https://github.com/Hikari7/Commit-fit_LandingPage"}
-                link={"https://commit-fit.netlify.app/"}
-                image={commitFit}
-              />
-            </div>
+            
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ import {
 } from "../Contact/contact.module.scss";
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin";
-import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle";
+import { GrSpotify } from "@react-icons/all-files/gr/GrSpotify";
 import AnimateInView from "../Animation";
 
 const contact = () => {
@@ -46,8 +46,8 @@ const contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/hk_Vancouver">
-                <AiFillTwitterCircle
+              <a href="https://open.spotify.com/user/starkilleer">
+                <GrSpotify
                   size="40px"
                   color="#3e3e3e"
                   className={icon}

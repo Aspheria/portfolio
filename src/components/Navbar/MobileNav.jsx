@@ -10,9 +10,9 @@ import {
 } from "./mobilenav.module.scss";
 import { motion } from "framer-motion";
 import Hamburger from "hamburger-react";
-import resume from "../../images/Resume_HikariKobe.pdf";
+import resume from "../../images/LorraneParrillaResume.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import myLogo from "../../images/logo.jpg";
+import myLogo from "../../images/logo.png";
 
 const MobileNav = () => {
   const [open, setOpen] = useState(false);
@@ -43,16 +43,6 @@ const MobileNav = () => {
                   transition={{ delay: 0.15 }}
                 >
                   About
-                </motion.li>
-              </AnchorLink>
-              <AnchorLink href="#works">
-                <motion.li
-                  className={li}
-                  initial={animateFrom}
-                  animate={animateTo}
-                  transition={{ delay: 0.2 }}
-                >
-                  Works
                 </motion.li>
               </AnchorLink>
               <AnchorLink href="#skills">

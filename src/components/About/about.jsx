@@ -18,10 +18,10 @@ import {
 import { TwitterEmbed } from "react-social-media-embed";
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin";
-import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle";
-import { GrArticle } from "@react-icons/all-files/gr/GrArticle";
+import { GrSpotify } from "@react-icons/all-files/gr/GrSpotify";
+import { AiFillMediumCircle } from "@react-icons/all-files/ai/AiFillMediumCircle";
 import profile from "../../images/portfolio.jpg";
-import resume from "../../images/Resume_HikariKobe.pdf";
+import resume from "../../images/LorraneParrillaResume.pdf";
 import AnimateInView from "../Animation";
 
 const about = () => {
@@ -44,24 +44,23 @@ const about = () => {
             <AnimateInView>
               <ul className={detail}>
                 <li>
-                  Love to put stylings for{" "}
-                  <span>a user-friendly application</span>
+                I'm a Front-end and a Blockchain Developer graduated in Data Science and <br/>I'm working on some side projects, learning a couple new skills, reading some Lovecraft books.{" "}
                 </li>
                 <li>
                   <span>Have strong communication skills</span> to have worked a
-                  customer service as a technical support specialist for 3 years
-                  and trained more than 130 employees.
+                  customer service as a technical support specialist for 2 years
+                  and trained more than 80 employees.
                 </li>
                 <li>
                   <span>
-                    “If you want to make progress on something, be consistent”
+                    “DIY Entusiast”
                   </span>{" "}
                   is my growth mindset
                 </li>
                 <li>
                   Spend most of my free time working out, travelling and
                   watching sitcoms <br></br>(
-                  <span>"The office" is the best show ever!</span>)
+                  <span>"The office" and "sopranos" are the best show ever!</span>)
                 </li>
               </ul>
             </AnimateInView>
@@ -75,24 +74,23 @@ const about = () => {
                   marginTop: 16,
                 }}
               >
-                <TwitterEmbed
+                {/* <TwitterEmbed
                   url="https://twitter.com/hk_Vancouver/status/1608891933912600577"
                   width={450}
                   height={600}
-                />
+                /> */}
               </div>
               <div className={`${detail} ${tweet}`}>
                 <p className={tweet}>
-                  You can check how I love learning tech skills consistently
-                  through
-                  <span>
+                  Check my social medias through
+                  {/* <span>
                     <a href="https://twitter.com/hk_Vancouver"> my Twitter!</a>
-                  </span>
+                  </span> */}
                 </p>
               </div>
               <div className={socialMedia}>
                 <li>
-                  <a href="https://www.linkedin.com/in/hikari-kobe-106054242/">
+                  <a href="https://www.linkedin.com/in/lorrane-p-03b992115/">
                     <AiFillLinkedin
                       size="40px"
                       color="#3e3e3e"
@@ -101,7 +99,7 @@ const about = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/Hikari7">
+                  <a href="https://github.com/Aspheria/">
                     <AiFillGithub
                       size="40px"
                       color="#3e3e3e"
@@ -110,8 +108,8 @@ const about = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/hk_Vancouver">
-                    <AiFillTwitterCircle
+                  <a href="https://open.spotify.com/user/starkilleer">
+                    <GrSpotify
                       size="40px"
                       color="#3e3e3e"
                       className={icon}
@@ -119,8 +117,8 @@ const about = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://dev.to/hikari7">
-                    <GrArticle size="40px" color="#3e3e3e" className={icon} />
+                  <a href="https://medium.com/@lorran.parrilla">
+                    <AiFillMediumCircle size="40px" color="#3e3e3e" className={icon} />
                   </a>
                 </li>
               </div>

@@ -7,10 +7,10 @@ import {
   li,
   logo,
 } from "./displaynav.module.scss";
-import resume from "../../images/Resume_HikariKobe.pdf";
+import resume from "../../images/LorraneParrillaResume.pdf";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import myLogo from "../../images/logo.jpg";
+import myLogo from "../../images/logo.png";
 
 const DisplayNav = () => {
   return (
@@ -51,7 +51,7 @@ const DisplayNav = () => {
               },
             }}
           >
-            <AnchorLink href="#works">Works</AnchorLink>
+            {/* <AnchorLink href="#works">Works</AnchorLink> */}
           </motion.li>
           <motion.li
             className={li}

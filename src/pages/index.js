@@ -42,7 +42,7 @@ export default function Home() {
                   },
                 }}
               >
-                Hi, I'm Hikari
+                Hi, I'm Lorrane
               </motion.h1>
               <motion.h2
                 initial={{
@@ -61,7 +61,7 @@ export default function Home() {
               >
                 A front end developer
                 <br></br>
-                based in Vancouver
+                based and made in Brazil
               </motion.h2>
               <motion.button
                 className={btn}
@@ -79,7 +79,7 @@ export default function Home() {
                   },
                 }}
               >
-                <a href="mailto:h.kobe712@gmail.com">Contact Me</a>
+                <a href="mailto:lorran.parrilla@gmail.com">Contact Me</a>
               </motion.button>
             </div>
             <div></div>
@@ -101,11 +101,11 @@ export default function Home() {
             },
           }}
         >
-          <span className={downArrow}>
+          {/* <span className={downArrow}>
             <AnchorLink href="#works">
               <GrDown size="40px" />
             </AnchorLink>
-          </span>
+          </span> */}
         </motion.div>
       </div>
       <Works />

@@ -21,12 +21,11 @@ import { FaNodeJs } from "@react-icons/all-files/fa/FaNodeJs";
 import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss";
 import { SiGatsby } from "@react-icons/all-files/si/SiGatsby";
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
-import { SiFirebase } from "@react-icons/all-files/si/SiFirebase";
+import { DiRuby } from "@react-icons/all-files/di/DiRuby";
 import { DiMongodb } from "@react-icons/all-files/di/DiMongodb";
 import { DiGithubBadge } from "@react-icons/all-files/di/DiGithubBadge";
-import { FaFigma } from "@react-icons/all-files/fa/FaFigma";
+import { FaEthereum } from "@react-icons/all-files/fa/FaEthereum";
 // import { AiFillHeart } from "@react-icons/all-files/Ai/AiFillHeart";
-import mui from "../../images/material-ui.svg";
 import styledComponents from "../../images/styled-components.svg";
 import AnimateInView from "../Animation";
 
@@ -114,10 +113,6 @@ const skills = () => {
                     <p>Bootstrap</p>
                   </li>
                   <li>
-                    <img src={mui} alt="mui" />
-                    <p>MUI</p>
-                  </li>
-                  <li>
                     <img src={styledComponents} alt="styledComponents" />
                     <p>
                       Styled <br></br>Components
@@ -139,8 +134,8 @@ const skills = () => {
                     <p>Node.js</p>
                   </li>
                   <li>
-                    <SiFirebase size="40px" />
-                    <p>Firebase</p>
+                    <DiRuby size="40px" />
+                    <p>Ruby</p>
                   </li>
                   <li>
                     <SiGatsby size="40px" />
@@ -155,8 +150,8 @@ const skills = () => {
                     <p>Github</p>
                   </li>
                   <li>
-                    <FaFigma size="40px" />
-                    <p>Figma</p>
+                    <FaEthereum size="40px" />
+                    <p>Solidity</p>
                   </li>
                 </ul>
               </div>
