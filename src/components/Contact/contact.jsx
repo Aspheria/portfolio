@@ -36,12 +36,12 @@ const contact = () => {
           </div>
           <div className={socialMedia}>
             <li>
-              <a href="https://www.linkedin.com/in/hikari-kobe-106054242/">
+              <a href="https://www.linkedin.com/in/lorrane-p-03b992115/">
                 <AiFillLinkedin size="40px" color="#3e3e3e" className={icon} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/Hikari7">
+              <a href="https://github.com/Aspheria">
                 <AiFillGithub size="40px" color="#3e3e3e" className={icon} />
               </a>
             </li>
@@ -56,7 +56,7 @@ const contact = () => {
             </li>
           </div>
           <button className={contactBtn}>
-            <a href="mailto:h.kobe712@gmail.com">Contact Me</a>
+            <a href="mailto:lorran.parrilla@gmail.com">Contact Me</a>
           </button>
         </div>
       </div>
