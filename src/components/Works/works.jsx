@@ -6,15 +6,12 @@ import {
   subTitle,
   work1,
   work2,
-  work3,
-  work4,
-  work5,
-  work6,
   bg,
 } from "./works.module.scss";
 
 import youtube from "../../images/youtube.jpg";
 import WorkCard from "../WorkCard/WorkCard";
+import email from "../../images/email.jpg"
 
 const Works = () => {
   return (
@@ -43,6 +40,20 @@ const Works = () => {
                 github={"https://github.com/Aspheria/YouTube-Clone"}
                 link={"https://elastic-lalande-0d8529.netlify.app/"}
                 image={youtube}
+              />
+            </div>
+            <div className={work2}>
+              <WorkCard
+                worktitle={"Pure HTML/CSS Email"}
+                details={
+                  "An pure HTML CSS for Gmail"
+                }
+                tool={"HTML5"}
+                tool2={"CSS"}
+                tool3={"Material UI"}
+                github={"https://github.com/Aspheria/email-unplugged/tree/main/Review"}
+                link={"https://codepen.io/aspheria/pen/XWPRKvX"}
+                image={email}
               />
             </div>
             
