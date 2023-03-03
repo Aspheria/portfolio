@@ -22,7 +22,7 @@ const Works = () => {
 
       <div className={bg}>
         <h2 className={subTitle}>
-          Hover over any project to learn more!
+          Take a look on projects that I dev
           <br></br>
           You can also see the details from the Github link.
         </h2>
